@@ -15,14 +15,6 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
-      name = 'Diary'
-      pageRef = '/diary'
-      weight = 20
-  [[menus.main]]
-      name = 'Representation'
-      pageRef = '/representation'
-      weight = 20
-  [[menus.main]]
     name = 'Notes'
     pageRef = '/notes'
     weight = 20
@@ -50,8 +42,47 @@ enableRobotsTXT = true
     name = 'Jay Sung'
     email = 'jaysung645@gmail.com'
 
+  [params.home]
+    # Display recent blog posts on the homepage.
+    # Default: true
+    showRecentPosts = true
+
+    # Set how many recent blog posts to show.
+    # Default: 3
+    recentPostsLimit = 3
+
+    # Display recent notes on the homepage.
+    # Default: true
+    showRecentNotes = true
+
+    # Set how many recent notes to show.
+    # Default: 5
+    recentNotesLimit = 5
+     
+  [params.notes]
+    # Set the number of notes to list on each page.
+    # Default: 20
+    pageSize = 20
+
+    # Show a filter option for note categories above the notes list.
+    # Default: true
+    showCategoryFilter = true
+
+  # Footer setup
   [params.footer]
-    creativeCommonsLicense = 'by_sa'
+    # Specify the Creative Commons license to apply to your content.
+    # Options: `by`, `by_sa`, `by_nc`, `by_nc_sa`, `by_nd`, `by_nc_nd`, `zero`, `none`
+    # Learn more at https://creativecommons.org/share-your-work/cclicenses/
+    # Default: none
+    creativeCommonsLicense = 'none'
+
+    # Show Creative Commons icons for the selected license.
+    # Default: true
+    showCreativeCommonsIcons = true
+
+    # Show a credit link to the Today I Learned theme in the footer.
+    # Default: true
+    showThemeCredit = true
 
   [params.robotstxt]
     blockCC = true

@@ -1,6 +1,6 @@
 ---
 title: 카프카 Kafka
-date: 2025-08-22
+date: "2025-08-22"
 categories: [Literature, Modernism]
 ---
 
