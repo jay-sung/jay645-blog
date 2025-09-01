@@ -267,3 +267,4 @@ tags
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/go,node,hugo,vim,visualstudiocode,macos,linux
+upload.sh
